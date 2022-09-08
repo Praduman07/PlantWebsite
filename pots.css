@@ -1,0 +1,351 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    
+
+}
+body {
+   height:100vh;
+   position:relative;
+   
+   
+}
+.Main {
+    background-image:url("../Pots/images/Header_02_022.jpg");
+    height:100vh;
+    background-size:cover;
+   background-position-y:-210px;
+    background-repeat:no-repeat;
+    font-family: 'Martel', serif;
+    font-weight:200;
+    text-align:center;
+}
+.container{
+    color:white;
+    
+    /* width: 100%;*/
+    box-shadow: 8px .1px 10px rgb(156, 150, 150);
+    display: border-box;
+    background-color: white;
+    
+}
+.logo{
+    left:5%;
+    top:5%;
+    position:absolute;
+    color:white;
+    font-size:30px;
+}
+.items{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+    font-size:16px;
+    font-weight:bold;
+    
+}
+.nav-item {
+    margin-right:30px;
+    margin-top:40px;
+}
+.nav-item:hover{
+    
+    transition:all .3s ease-in-out;
+    transform:scale(1.2);
+}
+.icons{
+    float:right;
+    margin:-30px 30px;
+   
+}
+.icon{
+    height:23px;
+    margin-right:20px;
+}
+/* .nav-item {
+    position:absolute;
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: -40px;
+}
+
+.nav-item li {
+    display: inline-block;
+    margin-left: 30px;
+    position:absolute;
+}
+
+.nav-item li a:link,
+.nav-item li a:visited {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+} */
+
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+}
+.text{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+   font-size:55px;
+  
+   
+}
+.heading{
+    line-height:65px;
+}
+.btn {
+    font-size:18px;
+    background-color:#898881;
+    display:inline-block;
+  padding:18px 45px;
+  
+  font-weight:bold;
+  color:white;
+}
+.btn:hover{
+    opacity:.8;
+}
+.fav {
+    height:150vh;
+    background-color:#38383B;
+    position:relative;
+}
+h1.heading2 {
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size:48px;
+    font-weight:lighter;
+    letter-spacing:-1px;
+
+}
+.favcards{
+   
+    
+    padding:220px 50px 0 50px;
+    display:flex;
+    justify-content:center;
+    justify-content: space-evenly;
+    align-items:center;
+   
+}
+.image{
+    max-height:500px;
+    max-width:100%;
+    
+    
+}
+
+.img3{
+    width:375px;
+}
+.name {
+    font-size:35px;
+    font-weight:lighter;
+   margin-top:40px;
+   margin-bottom:40px;
+    color:white;
+    text-align:center;
+}
+.buybtn{
+    margin-left:110px;
+}
+.justpic{
+    height:70vh;
+    background-image:url('../pots/images/white-rainforest-60WzJ8eKKC8-unsplash\ \(1\).jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y: -250px;;
+   
+
+}
+.journal {
+    height:170vh;
+    background-color:#A8A6A1;
+    position:relative;
+}
+h1.head{
+    position:absolute;
+    top:15%;
+}
+.gifcard{
+    position:absolute;
+    top:30%;
+    display:flex;
+    justify-content:center;
+    align-items:cenetr;
+    justify-content:space-between ;
+    padding:0 50px;
+    
+}
+.gifs{
+     margin-left:20px; 
+    max-height:400px;
+
+}
+.gifcontainer{
+    color:white;
+    text-align:center;
+
+}
+h3.name2{
+    font-size:40px;
+    font-weight:lighter;
+    margin-top:40px;
+    margin-bottom:40px;
+
+}
+p.info{
+    font-size:20px;
+}
+.readbtn{
+    margin-top:60px;
+    background-color:white;
+    color:#A8A6A1;
+
+}
+.contact{
+    height:80vh;
+    background-image:url('../pots/images/jakub-dziubak-62B8IX0n00M-unsplash.jpg');
+    position:relative;
+
+}
+.content{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    
+}
+.heading3 {
+    color:white;
+    font-size:40px;
+    font-weight:lighter;
+   margin-bottom:20px;
+}
+.subheading{
+    color:white;
+    font-size:20px;
+    font-weight:lighter;
+
+}
+.email{
+    margin-top:50px;
+    padding:20px 50px;
+    outline:none;
+    font-size:20px;
+}
+.signup{
+    margin-top:50px;
+    font-size:20px;
+    font-weight:lighter;
+}
+.giftcard{
+    height:120vh;
+    background-color:#A8A6A1;
+    display:flex;
+    padding:100px 100px 0 100px;
+    position:relative;
+    
+
+}
+.giftimg{
+    margin-right:150px;
+}
+
+.gift{
+    height:600px;
+
+}
+.giftinfo{
+   
+    margin-top:150px;
+    text-align:left;
+    color:white;
+    float:right;
+
+}
+h1.heading4{
+font-size:40px;
+font-weight:lighter;
+
+}
+p.giftpara{
+    font-size:20px;
+    margin-top:40px;
+    line-height:35px;
+    
+}
+.Purchase{
+    margin-top:40px;
+    background-color:white;
+    color:#A8A6A1;
+}
+.last{
+    height:30vh;
+    background-color:#38383B;
+    color:white;
+    padding:50px 50px 0 50px;;
+}
+.heading5{
+    font-size:40px;
+    font-weight:lighter;
+    margin-bottom:40px;
+}
+.made{
+    font-size:20px;
+}
+.left{
+    float:left;
+
+}
+.right{
+    float:right;
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.foote{
+    color:white;
+    text-decoration:none;
+}
+/* .heart{
+    transition:all .7s ;
+    animation:pump .1s infinite;
+
+}
+@keyframes pump {
+    0%{
+        transform:scale(1);
+        
+    }
+    25%{
+        transform:scale(2);
+    }
+    50%{
+        transform:scale(6);
+        
+    }
+    75%{
+        transform:scale(3);
+    }
+    100%{
+        transform:scale(1);
+    }
+} */

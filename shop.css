@@ -1,0 +1,87 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main2{
+    font-family: 'Martel', serif;
+    font-weight:200;
+    height:330vh;
+    background-color:#38383B;
+    position:relative;
+}
+#shop{
+    border-bottom:1px solid white;
+}
+.products {
+    position:absolute;
+    top:2%;
+    left:50%;
+    transform:translate(-50%,50%);
+    color:white;
+    text-align:center;
+}
+.heading11{
+font-size:48px;
+}
+.parag11{
+    font-size:16px;
+    margin:20px;
+    font-weight:bold;
+}
+.logo{
+    margin-top:-60px;
+}
+.productsec{ 
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    padding:320px 40px 0 40px;
+    }
+/* .box{
+    height:100px;
+    width:200px;
+    background-color:white;
+} */
+.box{
+    height:400px;
+    overflow:hidden;
+    position:relative;
+    
+}
+.img{
+    height:400px;
+    object-fit:cover;
+    width:310px;
+}
+
+.box img.imghover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit:cover;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .box:hover img.imghover {
+    opacity: 1;
+    transition:all 1s ease-out;
+    object-fit:cover;
+    height:100%;width:100%;
+  }
+  .plantname{
+    font-size:25px;
+    color:white;
+    text-align:center;
+    margin-top:10px;
+  }
+ .price{
+    color:white;
+    font-size:17px;
+    text-align:center;
+    margin-bottom:40px;
+ }
