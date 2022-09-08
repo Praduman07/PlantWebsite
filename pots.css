@@ -13,7 +13,7 @@ body {
    
 }
 .Main {
-    background-image:url("../Pots/images/Header_02_022.jpg");
+    background-image:url("/images/Header_02_022.jpg");
     height:100vh;
     background-size:cover;
    background-position-y:-210px;
@@ -166,7 +166,7 @@ h1.heading2 {
 }
 .justpic{
     height:70vh;
-    background-image:url('../pots/images/white-rainforest-60WzJ8eKKC8-unsplash\ \(1\).jpg');
+    background-image:url('/images/white-rainforest-60WzJ8eKKC8-unsplash\ \(1\).jpg');
     background-repeat:no-repeat;
     background-size:cover;
     background-position-y: -250px;;
@@ -220,7 +220,7 @@ p.info{
 }
 .contact{
     height:80vh;
-    background-image:url('../pots/images/jakub-dziubak-62B8IX0n00M-unsplash.jpg');
+    background-image:url('/images/jakub-dziubak-62B8IX0n00M-unsplash.jpg');
     position:relative;
 
 }
